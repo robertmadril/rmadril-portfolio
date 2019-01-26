@@ -1,0 +1,108 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("http://paulbooker.com/wp-content/uploads/2013/08/bg1.png");
+}
+
+.main-nav {
+   /* position: fixed; */
+    padding: 60px 20px 20px 40px;
+    font-family: 'Quicksand', sans-serif;;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    width: auto;
+    height: 40px;
+    background-color: lightgray;
+    border-bottom: 4px solid darkgrey;
+    opacity: 0.7;
+}
+
+.nav-list {
+    float: left;
+}
+
+#nav-about {
+    margin-left: 75px;
+    margin-right: 0px;
+}
+
+#nav-port {
+    margin-left: 33px;
+    margin-right: 30px;
+}
+
+#nav-cont {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.main-page {
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    width: 50%;
+    height:75%;
+    text-align: right;
+}
+
+.main-page-text {
+    margin-top:150px;
+    margin-right: 50px;
+}
+.main-img {
+    float: right;
+    width: 50%;
+    height: 75%;
+}
+.main-page-img {
+    margin-top: 100px;
+    margin-left:100px;
+    border-radius: 50%;
+}
+
+.foot-main {
+    padding-top: 5px;
+    padding-bottom: 55px;
+    font-family: 'Quicksand', sans-serif;;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    height: 25px;
+    background-color: lightgray;
+    border-top: 4px solid darkgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.cop-list {
+    height: 50%;
+}
+
+.foot-list {
+    height: 50%;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgray;
+    text-decoration: none;
+}
